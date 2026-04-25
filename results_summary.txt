@@ -1,0 +1,269 @@
+==============================================================================
+STEP 1 — LOAD AND CLEAN THE DATA
+==============================================================================
+Loaded 200 rows, 21 columns
+Columns: ['Age', 'Gender', 'CGPA?', 'study_hrs', 'study_time', 'acad_rating', 'fin_cond', 'pt_job', 'work_hrs', 'smartphone', 'laptop', 'screen_time', 'phone_use', 'travel_time', 'trans_mode', 'sleep_hrs', 'ECA', 'travel_impact', 'stress', 'screen_sleep', 'balance_diff']
+Missing values:
+work_hrs    121
+dtype: int64
+
+==============================================================================
+STEP 2 — ENCODE VARIABLES (ordinal / cyclic / binary / one-hot)
+==============================================================================
+Encoded variables created: CGPA, study_hrs_n, sleep_hrs_n, screen_n,
+travel_n, stress_n, fin_cond_n, balance_n, work_hrs_n, time_sin, time_cos,
+pt_job_b, laptop_b, ECA_b, travel_impact_b, screen_sleep_b, Gender_b,
+Study_Purpose, Social_Media, Entertainment, Gaming, trans_n
+
+==============================================================================
+STEP 3 — DESCRIPTIVE STATISTICS
+==============================================================================
+
+Age: M = 22.21, SD = 1.40, range = 19–25
+
+Gender:
+Gender
+Male      177
+Female     23
+Name: count, dtype: int64
+
+CGPA bands:
+CGPA?
+3.5-4.0    69
+3.0-3.5    68
+2.5-3.0    53
+2.0-2.5    10
+Name: count, dtype: int64
+
+Study hours:
+study_hrs
+1-2 hours            76
+Less than 1 hour     56
+3-4 hours            51
+More than 4 hours    17
+Name: count, dtype: int64
+
+Travel time:
+travel_time
+More than 2 hour        90
+More than 1 hour        44
+15-30 minutes           30
+30-60 minutes           26
+Less than 15 minutes    10
+Name: count, dtype: int64
+
+Stress:
+stress
+Sometimes    107
+Often         45
+Always        26
+Rarely        20
+Never          2
+Name: count, dtype: int64
+
+==============================================================================
+STEP 4 — BIVARIATE CORRELATIONS WITH CGPA
+==============================================================================
+
+                    variable      r  ci_lo  ci_hi     p
+        Academic self-rating  0.537  0.430  0.629 0.000
+           Daily study hours  0.467  0.350  0.568 0.000
+           Daily screen time -0.208 -0.337 -0.071 0.003
+            Perceived stress -0.157 -0.290 -0.019 0.026
+           Weekly work hours -0.152 -0.285 -0.013 0.032
+   Avoid screen before sleep  0.141  0.002  0.275 0.046
+               Part-time job -0.120 -0.254  0.019 0.091
+                         Age  0.103 -0.036  0.238 0.147
+               Phone: gaming -0.089 -0.225  0.051 0.212
+            Extracurriculars -0.087 -0.223  0.053 0.221
+                 Travel time -0.081 -0.217  0.058 0.254
+              Sleep duration  0.076 -0.063  0.213 0.283
+        Phone: entertainment -0.066 -0.203  0.074 0.354
+             Gender (Male=1) -0.060 -0.197  0.079 0.397
+        Phone: study purpose  0.055 -0.085  0.192 0.443
+         Financial condition -0.026 -0.164  0.113 0.716
+   Travel impact (perceived) -0.022 -0.160  0.117 0.757
+Time of study (morning bias) -0.019 -0.158  0.120 0.785
+         Phone: social media  0.001 -0.137  0.140 0.985
+
+Saved: correlations.csv
+Saved figure: fig01_correlations.png
+
+==============================================================================
+STEP 5 — STANDARDISE FEATURES
+==============================================================================
+Feature matrix X: shape (200, 15), all standardised to zero mean, unit variance.
+
+==============================================================================
+STEP 6 — CHOOSE NUMBER OF CLUSTERS
+==============================================================================
+
+ k  inertia  silhouette  calinski_harabasz  davies_bouldin
+ 2 2690.238       0.098             22.798           2.886
+ 3 2511.791       0.093             19.145           2.786
+ 4 2386.429       0.095             16.798           2.530
+ 5 2307.447       0.084             14.632           2.495
+ 6 2208.524       0.096             13.905           2.364
+ 7 2112.563       0.086             13.512           2.322
+ 8 2082.733       0.075             12.080           2.225
+Saved figure: fig02_k_selection.png
+Selected k = 3 (silhouette + interpretability)
+
+==============================================================================
+STEP 7 — FIT CLUSTERING MODELS
+==============================================================================
+kmodes not installed. Falling back to K-Means as primary.
+
+Cluster sizes:
+cluster_kproto
+0    73
+1    56
+2    71
+
+Clusters re-labelled by ascending mean CGPA (1 = lowest, 3 = highest).
+
+==============================================================================
+STEP 8 — PROFILE THE CLUSTERS
+==============================================================================
+
+cluster             1      2      3
+acad_rating      2.24   3.56   3.80
+study_hrs_n      1.46   2.27   2.84
+sleep_hrs_n      2.18   2.85   2.64
+screen_n         3.21   2.55   2.30
+travel_n         4.06   3.71   3.84
+stress_n         3.85   3.10   3.11
+work_hrs_n       5.56   4.06   2.88
+fin_cond_n       1.75   1.71   1.50
+Study_Purpose    0.41   0.59   0.41
+Social_Media     0.52   0.52   0.55
+Entertainment    0.58   0.48   0.50
+ECA_b            0.56   0.53   0.59
+screen_sleep_b   0.56   0.62   0.64
+CGPA             3.02   3.29   3.45
+n               71.00  73.00  56.00
+
+Saved: cluster_profile.csv
+
+==============================================================================
+STEP 9 — ANOVA + TUKEY HSD: CLUSTER DIFFERENCES IN CGPA
+==============================================================================
+
+One-way ANOVA: F(2, 197) = 16.705, p = 0.0000, eta^2 = 0.145
+
+Tukey HSD pairwise comparisons:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj   lower  upper  reject
+---------------------------------------------------
+     1      2   0.2664 0.0005  0.1015 0.4314   True
+     1      3   0.4218    0.0  0.2449 0.5987   True
+     2      3   0.1553 0.0953 -0.0205 0.3312  False
+---------------------------------------------------
+
+Kruskal-Wallis (non-parametric robustness): H = 30.142, p = 0.0000
+Saved figure: fig03_cgpa_by_cluster.png
+
+Robustness across clustering algorithms:
+  cluster_kproto     F = 16.70, p = 0.0000, eta^2 = 0.145
+  cluster_kmeans     F = 16.70, p = 0.0000, eta^2 = 0.145
+  cluster_ward       F = 16.41, p = 0.0000, eta^2 = 0.143
+Saved figure: fig04_dendrogram.png
+
+==============================================================================
+STEP 10 — MCA VISUALISATION
+==============================================================================
+prince not installed; using PCA fallback.
+Saved figure: fig05_pca_clusters.png
+
+==============================================================================
+STEP 11 — BUILD PREDICTOR MATRIX FOR ML MODEL
+==============================================================================
+Predictor matrix: (200, 23), target: CGPA (continuous, midpoint of band).
+Predictors: ['acad_rating', 'study_hrs_n', 'sleep_hrs_n', 'screen_n', 'travel_n', 'stress_n', 'fin_cond_n', 'work_hrs_n', 'time_sin', 'time_cos', 'Study_Purpose', 'Social_Media', 'Entertainment', 'Gaming', 'ECA_b', 'screen_sleep_b', 'pt_job_b', 'laptop_b', 'travel_impact_b', 'Gender_b', 'Age', 'trans_n', 'balance_n']
+
+==============================================================================
+STEP 12 — TRAIN / TEST SPLIT (80/20)
+==============================================================================
+Train: (160, 23), Test: (40, 23)
+
+==============================================================================
+STEP 13 — COMPARE CANDIDATE MODELS (5-fold CV on training set)
+==============================================================================
+
+       model  r2_mean  r2_sd  mae_mean  mae_sd
+     LassoCV    0.375  0.077     0.284   0.029
+       Lasso    0.373  0.076     0.284   0.028
+       Ridge    0.272  0.058     0.297   0.024
+         OLS    0.268  0.059     0.298   0.024
+RandomForest    0.254  0.105     0.316   0.022
+   GradBoost    0.137  0.127     0.323   0.019
+
+Best cross-validated model: LassoCV
+
+==============================================================================
+STEP 14 — HYPERPARAMETER TUNING
+==============================================================================
+Best params: {'alpha': 0.05}
+Best CV R^2: 0.373
+
+==============================================================================
+STEP 15 — FINAL EVALUATION ON HELD-OUT TEST SET
+==============================================================================
+Test R^2  = 0.083
+Test MAE  = 0.359 CGPA points
+Test RMSE = 0.448 CGPA points
+Saved figure: fig06_pred_vs_actual.png
+
+==============================================================================
+STEP 16 — FEATURE IMPORTANCE
+==============================================================================
+Saved figure: fig07_feature_importance.png
+
+Top 10 features by Random Forest importance:
+acad_rating    0.365
+study_hrs_n    0.099
+Age            0.084
+screen_n       0.047
+travel_n       0.046
+stress_n       0.041
+sleep_hrs_n    0.040
+work_hrs_n     0.031
+trans_n        0.025
+fin_cond_n     0.025
+
+LassoCV optimal alpha: 0.0393
+Non-zero coefficients (6/23):
+acad_rating       0.169
+study_hrs_n       0.103
+laptop_b         -0.022
+screen_sleep_b    0.008
+ECA_b            -0.006
+Gender_b         -0.001
+
+==============================================================================
+STEP 17 — SAVE OUTPUTS
+==============================================================================
+Saved: dataset_with_clusters.csv (original data + cluster labels)
+Saved: results_summary.txt (full console output)
+Saved: results.json (machine-readable headline numbers)
+
+==============================================================================
+PIPELINE COMPLETE
+==============================================================================
+
+Figures in: figs/
+  fig01_correlations.png        Bivariate correlations forest plot
+  fig02_k_selection.png         Elbow + silhouette diagnostics
+  fig03_cgpa_by_cluster.png     Boxplot of CGPA by cluster
+  fig04_dendrogram.png          Hierarchical dendrogram
+  fig05_mca_clusters.png        MCA 2-D cluster scatter
+  fig06_pred_vs_actual.png      Test-set predicted vs actual CGPA
+  fig07_feature_importance.png  Random Forest feature importances
+
+Tables / data files:
+  correlations.csv              Full Pearson correlation table
+  cluster_profile.csv           Cluster-mean profiles
+  dataset_with_clusters.csv     Data with cluster labels appended
+  results.json                  Machine-readable headline numbers
+  results_summary.txt           Full text log

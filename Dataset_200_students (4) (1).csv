@@ -1,0 +1,201 @@
+Age,Gender,CGPA? ,study_hrs  ,study_time,acad_rating ,fin_cond,pt_job  , work_hrs,smartphone  ,laptop ,screen_time,  phone_use,travel_time ,  trans_mode, sleep_hrs ,ECA  ,travel_impact  ,stress, screen_sleep,  balance_diff  
+23,Male,2.5-3.0,1-2 hours,Late Night,3,Middle Income,No,,Yes,Yes,1-3 hours,Entertainment,More than 2 hour,University Bus,4-6 hours,Yes,Yes,Sometimes,No,No
+22,Male,3.5-4.0,1-2 hours,Evening,5,Middle Income,Yes,11-20 hours,Yes,Yes,4-6 hours,"Study Purpose, Social Media, Entertainment",More than 2 hour,Public Transport,4-6 hours,No,No,Sometimes,Yes,Yes
+22,Male,3.5-4.0,1-2 hours,Morning,4,Middle Income,No,,Yes,No,1-3 hours,Entertainment,More than 2 hour,University Bus,6-8 hours,No,Yes,Sometimes,Yes,Maybe
+23,Male,2.5-3.0,Less than 1 hour,Morning,1,Middle Income,No,,Yes,Yes,More than 6 hours,"Social Media, Entertainment, Gaming",30-60 minutes,University Bus,More than 8 hours,Yes,No,Often,No,Yes
+24,Male,3.0-3.5,1-2 hours,Late Night,3,Middle Income,No,,Yes,Yes,4-6 hours,Social Media,More than 2 hour,University Bus,4-6 hours,Yes,Yes,Sometimes,No,Yes
+22,Male,3.5-4.0,1-2 hours,Late Night,5,Middle Income,No,,Yes,Yes,More than 6 hours,"Social Media, Entertainment",15-30 minutes,University Bus,4-6 hours,Yes,No,Always,Yes,Maybe
+22,Male,3.5-4.0,3-4 hours,Late Night,4,Low Income,Yes,5-10 hours,Yes,No,1-3 hours,"Study Purpose, Social Media, Entertainment",30-60 minutes,University Bus,4-6 hours,No,No,Sometimes,Yes,Maybe
+24,Male,3.5-4.0,3-4 hours,Evening,5,Middle Income,No,,Yes,Yes,1-3 hours,Study Purpose,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Always,No,No
+21,Male,2.5-3.0,Less than 1 hour,Late Night,2,Low Income,No,,Yes,Yes,4-6 hours,"Study Purpose, Social Media, Entertainment",More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,Yes,No
+23,Male,3.5-4.0,3-4 hours,Evening,5,Middle Income,Yes,More than 20 hours,Yes,Yes,4-6 hours,Study Purpose,30-60 minutes,University Bus,4-6 hours,Yes,Yes,Sometimes,No,Yes
+20,Male,3.0-3.5,3-4 hours,Evening,3,Middle Income,No,,Yes,No,4-6 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 1 hour,University Bus,6-8 hours,No,No,Often,No,Maybe
+22,Male,3.0-3.5,1-2 hours,Late Night,2,Low Income,No,,Yes,Yes,1-3 hours,"Study Purpose, Social Media, Entertainment, Gaming",30-60 minutes,University Bus,4-6 hours,Yes,No,Always,Yes,Yes
+22,Male,3.5-4.0,3-4 hours,Evening,4,Middle Income,No,,Yes,No,4-6 hours,Study Purpose,15-30 minutes,University Bus,6-8 hours,No,No,Sometimes,Yes,No
+22,Male,3.5-4.0,1-2 hours,Late Night,3,Middle Income,No,,Yes,Yes,4-6 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 1 hour,University Bus,6-8 hours,Yes,No,Sometimes,Yes,Maybe
+22,Male,3.0-3.5,1-2 hours,Late Night,3,Middle Income,No,,Yes,No,Less than 1 hour,"Study Purpose, Social Media",More than 2 hour,University Bus,Less than 4 hours,No,Yes,Sometimes,Yes,Yes
+20,Male,3.5-4.0,1-2 hours,Late Night,3,Low Income,Yes,5-10 hours,Yes,Yes,More than 6 hours,"Entertainment, Gaming",More than 1 hour,University Bus,6-8 hours,No,No,Often,Yes,No
+23,Male,2.5-3.0,Less than 1 hour,Late Night,3,Middle Income,Yes,Less than 5 hours,Yes,Yes,1-3 hours,Social Media,More than 2 hour,University Bus,Less than 4 hours,Yes,Yes,Rarely,No,Yes
+22,Male,3.5-4.0,3-4 hours,Late Night,3,Low Income,No,,Yes,No,4-6 hours,Social Media,More than 1 hour,Public Transport,4-6 hours,No,Yes,Often,Yes,Yes
+21,Male,2.0-2.5,Less than 1 hour,Morning,1,Middle Income,Yes,Less than 5 hours,Yes,Yes,4-6 hours,Social Media,More than 2 hour,University Bus,6-8 hours,Yes,No,Sometimes,No,Maybe
+22,Male,3.0-3.5,1-2 hours,Late Night,3,Middle Income,No,5-10 hours,Yes,No,1-3 hours,Study Purpose,15-30 minutes,University Bus,4-6 hours,Yes,Yes,Sometimes,No,Maybe
+22,Male,3.5-4.0,Less than 1 hour,Late Night,3,Low Income,Yes,5-10 hours,Yes,No,4-6 hours,"Study Purpose, Gaming",More than 2 hour,University Bus,Less than 4 hours,Yes,No,Often,Yes,Maybe
+22,Male,3.5-4.0,Less than 1 hour,Late Night,4,Low Income,Yes,5-10 hours,Yes,Yes,4-6 hours,"Study Purpose, Social Media, Entertainment, Gaming",30-60 minutes,University Bus,6-8 hours,Yes,No,Sometimes,No,No
+25,Male,3.0-3.5,1-2 hours,Morning,5,Low Income,Yes,11-20 hours,Yes,No,1-3 hours,Study Purpose,15-30 minutes,Private Vehicle,4-6 hours,Yes,Yes,Sometimes,No,Maybe
+24,Male,2.5-3.0,3-4 hours,Evening,2,Low Income,Yes,Less than 5 hours,Yes,Yes,4-6 hours,Gaming,More than 1 hour,Private Vehicle,More than 8 hours,Yes,Yes,Sometimes,Yes,No
+22,Male,3.5-4.0,3-4 hours,Evening,3,Middle Income,Yes,More than 20 hours,Yes,Yes,1-3 hours,Study Purpose,More than 1 hour,University Bus,6-8 hours,Yes,No,Never,Yes,No
+23,Female,3.5-4.0,1-2 hours,Morning,4,Middle Income,No,,Yes,Yes,Less than 1 hour,Social Media,More than 1 hour,University Bus,4-6 hours,Yes,No,Often,Yes,Maybe
+24,Male,3.0-3.5,1-2 hours,Evening,3,Middle Income,No,,Yes,No,More than 6 hours,Social Media,More than 1 hour,University Bus,6-8 hours,Yes,No,Sometimes,No,Maybe
+22,Male,2.5-3.0,1-2 hours,Morning,3,Middle Income,Yes,5-10 hours,Yes,Yes,4-6 hours,Study Purpose,More than 2 hour,University Bus,4-6 hours,No,Yes,Always,Yes,Yes
+23,Male,3.0-3.5,1-2 hours,Late Night,3,Low Income,No,,Yes,No,1-3 hours,"Study Purpose, Social Media",More than 2 hour,University Bus,4-6 hours,No,Yes,Sometimes,No,No
+24,Male,3.0-3.5,3-4 hours,Morning,3,Low Income,No,,Yes,No,1-3 hours,Entertainment,More than 2 hour,University Bus,4-6 hours,No,Yes,Often,No,Maybe
+23,Male,2.0-2.5,1-2 hours,Morning,3,Low Income,Yes,More than 20 hours,Yes,No,1-3 hours,Social Media,30-60 minutes,University Bus,4-6 hours,Yes,No,Sometimes,Yes,Yes
+21,Male,3.0-3.5,1-2 hours,Evening,2,Middle Income,No,,Yes,No,4-6 hours,Entertainment,More than 2 hour,University Bus,More than 8 hours,No,Yes,Rarely,No,No
+21,Male,2.5-3.0,1-2 hours,Late Night,3,High Income,No,,Yes,Yes,More than 6 hours,"Entertainment, Gaming",More than 2 hour,University Bus,More than 8 hours,No,No,Sometimes,No,Maybe
+23,Female,2.5-3.0,Less than 1 hour,Late Night,1,Middle Income,Yes,More than 20 hours,Yes,No,1-3 hours,Study Purpose,More than 2 hour,University Bus,6-8 hours,No,No,Often,No,Maybe
+25,Male,3.5-4.0,1-2 hours,Evening,4,Middle Income,No,,Yes,Yes,4-6 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,No,Yes
+25,Male,2.5-3.0,3-4 hours,Late Night,4,Middle Income,No,,Yes,Yes,1-3 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 2 hour,Private Vehicle,6-8 hours,Yes,No,Sometimes,Yes,No
+20,Female,3.0-3.5,1-2 hours,Late Night,2,Middle Income,Yes,11-20 hours,Yes,No,4-6 hours,"Study Purpose, Entertainment",Less than 15 minutes,Public Transport,6-8 hours,No,No,Always,Yes,Maybe
+24,Male,3.5-4.0,More than 4 hours,Late Night,4,Middle Income,No,5-10 hours,Yes,Yes,1-3 hours,Entertainment,30-60 minutes,University Bus,6-8 hours,Yes,No,Sometimes,Yes,Maybe
+23,Male,2.5-3.0,Less than 1 hour,Late Night,3,Low Income,Yes,5-10 hours,Yes,Yes,More than 6 hours,"Social Media, Entertainment",More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,Yes,Yes
+22,Male,3.5-4.0,1-2 hours,Evening,3,Middle Income,No,,Yes,Yes,More than 6 hours,"Study Purpose, Social Media, Entertainment, Gaming",15-30 minutes,University Bus,4-6 hours,No,No,Sometimes,Yes,Yes
+21,Female,3.0-3.5,Less than 1 hour,Morning,1,Middle Income,No,,Yes,Yes,More than 6 hours,"Social Media, Entertainment, Gaming",More than 1 hour,University Bus,6-8 hours,No,Yes,Sometimes,Yes,Maybe
+19,Female,3.5-4.0,3-4 hours,Late Night,3,Middle Income,No,,Yes,Yes,1-3 hours,Study Purpose,More than 1 hour,University Bus,4-6 hours,Yes,Yes,Always,Yes,Yes
+21,Female,3.5-4.0,3-4 hours,Morning,3,Low Income,Yes,Less than 5 hours,Yes,Yes,More than 6 hours,Entertainment,Less than 15 minutes,University Bus,6-8 hours,No,No,Always,Yes,Yes
+20,Male,2.0-2.5,1-2 hours,Evening,3,Middle Income,No,,Yes,Yes,More than 6 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 1 hour,University Bus,6-8 hours,Yes,No,Sometimes,No,No
+21,Male,3.0-3.5,1-2 hours,Morning,3,Low Income,No,Less than 5 hours,Yes,Yes,More than 6 hours,"Social Media, Entertainment, Gaming",15-30 minutes,University Bus,6-8 hours,No,Yes,Sometimes,Yes,Yes
+21,Male,3.0-3.5,1-2 hours,Late Night,2,Middle Income,No,,Yes,Yes,More than 6 hours,Social Media,More than 2 hour,University Bus,4-6 hours,No,No,Sometimes,Yes,No
+23,Male,2.5-3.0,1-2 hours,Late Night,2,Middle Income,Yes,More than 20 hours,Yes,Yes,1-3 hours,Social Media,More than 2 hour,Public Transport,Less than 4 hours,No,Yes,Sometimes,Yes,Maybe
+22,Female,3.0-3.5,3-4 hours,Evening,3,Middle Income,Yes,Less than 5 hours,Yes,No,4-6 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 2 hour,University Bus,6-8 hours,Yes,No,Sometimes,Yes,Maybe
+25,Male,2.5-3.0,Less than 1 hour,Late Night,2,Low Income,Yes,Less than 5 hours,Yes,Yes,More than 6 hours,Social Media,More than 1 hour,University Bus,Less than 4 hours,Yes,Yes,Often,Yes,Yes
+22,Male,3.0-3.5,1-2 hours,Evening,3,Low Income,Yes,5-10 hours,Yes,No,1-3 hours,Study Purpose,More than 2 hour,University Bus,More than 8 hours,No,Yes,Rarely,No,Maybe
+25,Male,3.5-4.0,1-2 hours,Evening,5,Middle Income,No,,Yes,Yes,Less than 1 hour,"Study Purpose, Social Media, Entertainment, Gaming",More than 1 hour,University Bus,6-8 hours,No,No,Often,Yes,No
+23,Male,3.0-3.5,More than 4 hours,Morning,4,Low Income,Yes,5-10 hours,Yes,Yes,1-3 hours,"Study Purpose, Social Media",30-60 minutes,University Bus,6-8 hours,Yes,No,Sometimes,No,No
+22,Male,3.5-4.0,More than 4 hours,Late Night,4,Middle Income,No,,Yes,Yes,Less than 1 hour,Study Purpose,More than 1 hour,University Bus,4-6 hours,Yes,Yes,Sometimes,Yes,No
+22,Male,3.0-3.5,1-2 hours,Late Night,2,Low Income,No,,Yes,No,More than 6 hours,Study Purpose,More than 2 hour,Private Vehicle,Less than 4 hours,Yes,No,Rarely,No,Yes
+21,Male,3.5-4.0,More than 4 hours,Morning,4,Low Income,Yes,5-10 hours,Yes,No,1-3 hours,Social Media,More than 2 hour,University Bus,Less than 4 hours,Yes,No,Sometimes,No,Yes
+23,Male,3.0-3.5,More than 4 hours,Late Night,4,Low Income,No,,Yes,Yes,1-3 hours,"Study Purpose, Social Media, Entertainment, Gaming",30-60 minutes,University Bus,4-6 hours,No,Yes,Rarely,No,No
+21,Male,3.0-3.5,Less than 1 hour,Late Night,3,Middle Income,Yes,5-10 hours,Yes,Yes,More than 6 hours,"Study Purpose, Social Media",More than 2 hour,University Bus,Less than 4 hours,No,Yes,Sometimes,No,Yes
+25,Male,3.5-4.0,3-4 hours,Evening,4,Low Income,No,,Yes,No,4-6 hours,Study Purpose,More than 1 hour,University Bus,6-8 hours,Yes,Yes,Often,Yes,Yes
+24,Male,3.5-4.0,3-4 hours,Evening,4,Low Income,Yes,Less than 5 hours,Yes,No,4-6 hours,"Study Purpose, Social Media, Entertainment, Gaming",Less than 15 minutes,University Bus,6-8 hours,No,No,Rarely,Yes,Maybe
+22,Male,3.0-3.5,3-4 hours,Evening,5,Middle Income,No,,Yes,Yes,1-3 hours,"Entertainment, Gaming",More than 2 hour,University Bus,6-8 hours,No,No,Sometimes,Yes,No
+25,Male,3.5-4.0,3-4 hours,Evening,5,Middle Income,Yes,Less than 5 hours,Yes,Yes,More than 6 hours,"Study Purpose, Gaming",15-30 minutes,Public Transport,6-8 hours,Yes,Yes,Sometimes,Yes,Maybe
+24,Male,3.5-4.0,3-4 hours,Late Night,4,Low Income,No,,Yes,No,Less than 1 hour,Social Media,15-30 minutes,University Bus,6-8 hours,No,No,Rarely,Yes,No
+20,Male,3.5-4.0,3-4 hours,Morning,5,Low Income,Yes,Less than 5 hours,Yes,Yes,1-3 hours,Social Media,More than 2 hour,University Bus,6-8 hours,No,Yes,Sometimes,No,Maybe
+23,Male,2.5-3.0,1-2 hours,Evening,2,Middle Income,No,,Yes,Yes,1-3 hours,"Study Purpose, Social Media",30-60 minutes,University Bus,4-6 hours,No,Yes,Sometimes,Yes,Maybe
+21,Female,2.5-3.0,3-4 hours,Morning,1,Middle Income,Yes,More than 20 hours,Yes,Yes,4-6 hours,"Social Media, Entertainment, Gaming",More than 2 hour,University Bus,4-6 hours,No,No,Often,No,Yes
+23,Male,3.0-3.5,1-2 hours,Evening,3,Middle Income,Yes,Less than 5 hours,Yes,No,1-3 hours,Social Media,More than 2 hour,University Bus,6-8 hours,No,No,Often,No,Yes
+23,Female,3.0-3.5,Less than 1 hour,Evening,2,Middle Income,Yes,Less than 5 hours,Yes,Yes,More than 6 hours,"Study Purpose, Gaming",More than 2 hour,University Bus,4-6 hours,Yes,No,Always,Yes,Yes
+21,Female,3.0-3.5,Less than 1 hour,Evening,3,Middle Income,No,,Yes,Yes,4-6 hours,Social Media,More than 1 hour,University Bus,4-6 hours,Yes,Yes,Always,Yes,Yes
+21,Male,3.0-3.5,1-2 hours,Evening,3,Middle Income,No,,Yes,Yes,4-6 hours,"Entertainment, Gaming",More than 2 hour,University Bus,6-8 hours,No,No,Rarely,No,No
+22,Male,3.5-4.0,More than 4 hours,Late Night,4,Low Income,No,,Yes,Yes,1-3 hours,Entertainment,15-30 minutes,University Bus,4-6 hours,Yes,No,Sometimes,No,Maybe
+22,Male,2.5-3.0,1-2 hours,Morning,4,Middle Income,No,,Yes,No,1-3 hours,Social Media,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,No,Maybe
+23,Male,3.5-4.0,3-4 hours,Late Night,5,Middle Income,No,,Yes,Yes,1-3 hours,Social Media,30-60 minutes,University Bus,More than 8 hours,Yes,No,Always,No,No
+22,Male,3.5-4.0,Less than 1 hour,Evening,3,Middle Income,No,,Yes,Yes,More than 6 hours,"Study Purpose, Social Media",More than 1 hour,University Bus,4-6 hours,No,Yes,Sometimes,No,Maybe
+21,Male,3.5-4.0,3-4 hours,Late Night,5,Low Income,No,,Yes,Yes,1-3 hours,Study Purpose,30-60 minutes,University Bus,4-6 hours,Yes,Yes,Rarely,Yes,Yes
+22,Male,2.5-3.0,1-2 hours,Evening,4,Middle Income,Yes,5-10 hours,Yes,Yes,Less than 1 hour,"Study Purpose, Social Media, Entertainment, Gaming",More than 1 hour,Public Transport,6-8 hours,Yes,No,Sometimes,Yes,Maybe
+21,Male,3.5-4.0,More than 4 hours,Morning,3,Middle Income,No,,Yes,Yes,4-6 hours,Social Media,More than 1 hour,University Bus,More than 8 hours,Yes,No,Sometimes,Yes,No
+22,Male,2.5-3.0,1-2 hours,Morning,3,Middle Income,Yes,11-20 hours,Yes,Yes,4-6 hours,"Social Media, Entertainment",30-60 minutes,University Bus,4-6 hours,Yes,No,Sometimes,Yes,Maybe
+22,Male,2.5-3.0,Less than 1 hour,Late Night,1,Middle Income,No,,Yes,No,More than 6 hours,Gaming,More than 2 hour,University Bus,4-6 hours,No,No,Always,Yes,Yes
+22,Male,3.0-3.5,1-2 hours,Late Night,1,Middle Income,No,,Yes,Yes,More than 6 hours,Social Media,30-60 minutes,University Bus,4-6 hours,Yes,Yes,Often,Yes,Yes
+22,Male,3.0-3.5,1-2 hours,Evening,4,Low Income,No,,Yes,No,1-3 hours,"Social Media, Entertainment",More than 2 hour,University Bus,4-6 hours,Yes,Yes,Sometimes,Yes,No
+23,Male,3.0-3.5,Less than 1 hour,Evening,4,Middle Income,Yes,Less than 5 hours,Yes,Yes,More than 6 hours,"Study Purpose, Social Media",More than 2 hour,University Bus,4-6 hours,Yes,Yes,Always,No,Maybe
+19,Male,3.5-4.0,1-2 hours,Evening,4,Middle Income,No,,Yes,No,1-3 hours,Entertainment,More than 1 hour,University Bus,6-8 hours,Yes,No,Sometimes,No,Maybe
+21,Male,3.0-3.5,1-2 hours,Evening,3,Middle Income,Yes,Less than 5 hours,Yes,No,1-3 hours,Study Purpose,15-30 minutes,University Bus,4-6 hours,No,Yes,Sometimes,No,Maybe
+23,Female,3.0-3.5,Less than 1 hour,Morning,3,Middle Income,No,,Yes,Yes,More than 6 hours,"Social Media, Entertainment",30-60 minutes,University Bus,Less than 4 hours,Yes,No,Often,No,Maybe
+23,Male,3.0-3.5,1-2 hours,Morning,3,Middle Income,No,,Yes,Yes,1-3 hours,Social Media,More than 1 hour,Private Vehicle,6-8 hours,Yes,Yes,Sometimes,No,Maybe
+22,Male,3.5-4.0,3-4 hours,Morning,4,Middle Income,No,,Yes,Yes,Less than 1 hour,Social Media,15-30 minutes,Private Vehicle,4-6 hours,Yes,Yes,Rarely,Yes,No
+23,Male,2.5-3.0,1-2 hours,Late Night,3,Middle Income,No,,Yes,Yes,More than 6 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 1 hour,Public Transport,4-6 hours,Yes,No,Often,Yes,Yes
+22,Male,2.5-3.0,1-2 hours,Late Night,2,Low Income,No,,Yes,Yes,1-3 hours,Entertainment,More than 1 hour,University Bus,More than 8 hours,No,Yes,Often,Yes,Yes
+23,Male,2.0-2.5,Less than 1 hour,Evening,3,High Income,Yes,5-10 hours,Yes,Yes,4-6 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 1 hour,University Bus,More than 8 hours,Yes,Yes,Sometimes,Yes,Yes
+21,Male,3.5-4.0,More than 4 hours,Morning,4,Low Income,No,,Yes,Yes,4-6 hours,Social Media,More than 2 hour,University Bus,6-8 hours,Yes,No,Sometimes,No,No
+22,Male,2.5-3.0,1-2 hours,Evening,4,Low Income,Yes,5-10 hours,Yes,Yes,1-3 hours,Entertainment,15-30 minutes,University Bus,6-8 hours,Yes,No,Sometimes,No,No
+23,Male,3.5-4.0,1-2 hours,Evening,4,Middle Income,No,,Yes,No,1-3 hours,Study Purpose,30-60 minutes,University Bus,More than 8 hours,Yes,No,Sometimes,Yes,Maybe
+22,Male,3.0-3.5,3-4 hours,Late Night,4,Middle Income,No,,Yes,Yes,More than 6 hours,"Study Purpose, Social Media, Entertainment, Gaming",30-60 minutes,University Bus,4-6 hours,Yes,Yes,Sometimes,Yes,No
+25,Male,3.0-3.5,1-2 hours,Late Night,2,Middle Income,Yes,5-10 hours,Yes,No,More than 6 hours,Social Media,Less than 15 minutes,Private Vehicle,4-6 hours,Yes,Yes,Often,No,Yes
+25,Male,3.0-3.5,1-2 hours,Morning,3,Middle Income,No,,Yes,Yes,Less than 1 hour,Study Purpose,15-30 minutes,University Bus,6-8 hours,No,No,Sometimes,Yes,Maybe
+25,Male,2.5-3.0,1-2 hours,Evening,3,Middle Income,Yes,5-10 hours,Yes,Yes,1-3 hours,"Study Purpose, Entertainment",15-30 minutes,Private Vehicle,6-8 hours,No,No,Sometimes,No,No
+23,Male,3.5-4.0,3-4 hours,Morning,5,Middle Income,Yes,5-10 hours,Yes,Yes,Less than 1 hour,Study Purpose,15-30 minutes,University Bus,4-6 hours,No,Yes,Sometimes,No,Maybe
+20,Male,2.5-3.0,Less than 1 hour,Morning,3,Low Income,No,,Yes,Yes,4-6 hours,"Entertainment, Gaming",More than 2 hour,University Bus,6-8 hours,No,No,Sometimes,No,Maybe
+22,Male,3.5-4.0,1-2 hours,Morning,4,Low Income,No,,Yes,No,1-3 hours,"Entertainment, Gaming",More than 2 hour,University Bus,4-6 hours,No,Yes,Often,Yes,No
+22,Male,3.5-4.0,1-2 hours,Evening,3,Middle Income,Yes,5-10 hours,Yes,Yes,4-6 hours,"Entertainment, Gaming",Less than 15 minutes,University Bus,4-6 hours,No,Yes,Rarely,Yes,Maybe
+22,Male,3.5-4.0,More than 4 hours,Evening,4,Low Income,Yes,More than 20 hours,Yes,No,1-3 hours,"Study Purpose, Social Media, Entertainment",More than 2 hour,University Bus,6-8 hours,No,No,Sometimes,Yes,Yes
+23,Male,2.0-2.5,Less than 1 hour,Late Night,1,Middle Income,Yes,Less than 5 hours,Yes,Yes,More than 6 hours,"Entertainment, Gaming",More than 1 hour,University Bus,More than 8 hours,Yes,Yes,Often,Yes,Maybe
+21,Male,2.5-3.0,Less than 1 hour,Morning,3,Low Income,No,,Yes,No,4-6 hours,Entertainment,15-30 minutes,University Bus,Less than 4 hours,Yes,Yes,Sometimes,Yes,Yes
+21,Female,2.5-3.0,3-4 hours,Evening,3,Middle Income,Yes,5-10 hours,Yes,Yes,1-3 hours,Entertainment,Less than 15 minutes,University Bus,6-8 hours,No,Yes,Sometimes,Yes,Maybe
+23,Female,3.5-4.0,3-4 hours,Evening,4,Low Income,Yes,5-10 hours,Yes,No,4-6 hours,Study Purpose,15-30 minutes,University Bus,6-8 hours,No,No,Sometimes,Yes,Maybe
+24,Female,3.5-4.0,3-4 hours,Evening,4,Middle Income,No,,Yes,No,Less than 1 hour,Social Media,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,Yes,Maybe
+23,Male,2.5-3.0,1-2 hours,Morning,3,Low Income,Yes,11-20 hours,Yes,Yes,1-3 hours,"Study Purpose, Social Media, Entertainment",More than 2 hour,University Bus,6-8 hours,Yes,No,Sometimes,Yes,Maybe
+23,Male,2.5-3.0,Less than 1 hour,Late Night,3,Middle Income,Yes,5-10 hours,Yes,Yes,More than 6 hours,Study Purpose,More than 2 hour,University Bus,More than 8 hours,Yes,Yes,Always,No,Yes
+22,Female,3.0-3.5,Less than 1 hour,Evening,3,Middle Income,Yes,5-10 hours,Yes,Yes,Less than 1 hour,"Study Purpose, Social Media, Entertainment, Gaming",More than 2 hour,University Bus,4-6 hours,Yes,Yes,Sometimes,Yes,Yes
+22,Male,2.5-3.0,Less than 1 hour,Late Night,1,Low Income,Yes,More than 20 hours,Yes,Yes,More than 6 hours,"Social Media, Entertainment, Gaming",Less than 15 minutes,University Bus,Less than 4 hours,Yes,No,Sometimes,No,Maybe
+23,Male,3.5-4.0,1-2 hours,Evening,4,Middle Income,Yes,Less than 5 hours,Yes,No,1-3 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 1 hour,Private Vehicle,6-8 hours,Yes,Yes,Often,Yes,Maybe
+21,Male,2.5-3.0,Less than 1 hour,Late Night,2,Middle Income,Yes,More than 20 hours,Yes,No,4-6 hours,"Entertainment, Gaming",More than 1 hour,University Bus,Less than 4 hours,Yes,Yes,Often,Yes,Maybe
+19,Male,2.0-2.5,1-2 hours,Evening,2,Middle Income,No,,Yes,Yes,More than 6 hours,Study Purpose,More than 2 hour,Public Transport,4-6 hours,Yes,Yes,Sometimes,No,Yes
+22,Male,3.0-3.5,3-4 hours,Late Night,4,Middle Income,No,,Yes,No,1-3 hours,Social Media,More than 2 hour,University Bus,6-8 hours,Yes,No,Sometimes,Yes,No
+21,Male,3.0-3.5,1-2 hours,Late Night,2,Middle Income,Yes,5-10 hours,Yes,Yes,More than 6 hours,Entertainment,30-60 minutes,Private Vehicle,4-6 hours,No,Yes,Often,Yes,Maybe
+21,Male,2.5-3.0,1-2 hours,Evening,4,Low Income,No,,Yes,No,4-6 hours,Study Purpose,30-60 minutes,University Bus,6-8 hours,Yes,No,Sometimes,Yes,Maybe
+21,Male,2.5-3.0,1-2 hours,Evening,3,Low Income,Yes,11-20 hours,Yes,Yes,1-3 hours,Study Purpose,More than 2 hour,Private Vehicle,6-8 hours,Yes,No,Often,No,Yes
+19,Male,3.5-4.0,1-2 hours,Evening,4,Low Income,Yes,11-20 hours,Yes,No,Less than 1 hour,Social Media,15-30 minutes,University Bus,6-8 hours,No,Yes,Sometimes,Yes,Maybe
+22,Male,3.0-3.5,1-2 hours,Evening,3,Low Income,No,,Yes,No,1-3 hours,Study Purpose,30-60 minutes,University Bus,6-8 hours,Yes,Yes,Sometimes,No,Yes
+21,Male,3.5-4.0,3-4 hours,Evening,5,High Income,No,,Yes,Yes,1-3 hours,Entertainment,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,Yes,No
+19,Male,2.5-3.0,Less than 1 hour,Morning,3,Middle Income,No,,Yes,Yes,4-6 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 1 hour,University Bus,4-6 hours,No,Yes,Always,Yes,Maybe
+22,Male,3.0-3.5,3-4 hours,Late Night,3,Middle Income,No,,Yes,Yes,1-3 hours,Entertainment,30-60 minutes,University Bus,4-6 hours,Yes,Yes,Sometimes,Yes,No
+25,Male,3.0-3.5,1-2 hours,Late Night,2,Middle Income,Yes,11-20 hours,Yes,Yes,1-3 hours,"Study Purpose, Social Media, Entertainment",More than 1 hour,Private Vehicle,4-6 hours,No,No,Often,No,Yes
+23,Male,3.0-3.5,Less than 1 hour,Morning,2,Middle Income,No,,Yes,Yes,4-6 hours,Entertainment,More than 2 hour,University Bus,More than 8 hours,Yes,Yes,Always,Yes,Yes
+24,Male,3.5-4.0,More than 4 hours,Morning,5,Middle Income,No,,Yes,Yes,More than 6 hours,"Social Media, Entertainment, Gaming",15-30 minutes,University Bus,Less than 4 hours,Yes,No,Sometimes,Yes,Yes
+21,Male,2.5-3.0,3-4 hours,Late Night,3,Low Income,No,,Yes,No,More than 6 hours,Social Media,More than 1 hour,University Bus,More than 8 hours,Yes,Yes,Sometimes,No,Yes
+21,Male,3.5-4.0,3-4 hours,Evening,5,Middle Income,No,,Yes,Yes,4-6 hours,"Social Media, Entertainment, Gaming",15-30 minutes,Public Transport,6-8 hours,Yes,Yes,Sometimes,No,No
+22,Male,2.5-3.0,1-2 hours,Evening,3,Low Income,Yes,5-10 hours,Yes,Yes,1-3 hours,Social Media,More than 2 hour,University Bus,4-6 hours,No,Yes,Often,Yes,Maybe
+21,Male,3.5-4.0,1-2 hours,Late Night,3,Middle Income,Yes,11-20 hours,Yes,Yes,1-3 hours,Social Media,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,Yes,Maybe
+24,Male,3.0-3.5,1-2 hours,Evening,3,Middle Income,No,,Yes,Yes,4-6 hours,Social Media,More than 2 hour,Private Vehicle,6-8 hours,No,No,Sometimes,No,Maybe
+21,Male,2.5-3.0,Less than 1 hour,Late Night,2,Middle Income,No,,Yes,No,1-3 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 2 hour,University Bus,4-6 hours,No,Yes,Always,No,Yes
+21,Male,3.5-4.0,More than 4 hours,Morning,4,Low Income,Yes,5-10 hours,Yes,Yes,1-3 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 2 hour,Public Transport,More than 8 hours,No,Yes,Often,Yes,No
+23,Male,2.5-3.0,3-4 hours,Evening,3,Middle Income,Yes,More than 20 hours,Yes,Yes,4-6 hours,Study Purpose,30-60 minutes,University Bus,6-8 hours,No,No,Sometimes,Yes,No
+20,Male,3.0-3.5,1-2 hours,Evening,1,Middle Income,No,,Yes,Yes,4-6 hours,"Social Media, Entertainment, Gaming",More than 2 hour,University Bus,4-6 hours,Yes,No,Always,Yes,Maybe
+23,Male,2.5-3.0,Less than 1 hour,Evening,1,Low Income,No,,Yes,No,4-6 hours,"Study Purpose, Gaming",More than 2 hour,University Bus,4-6 hours,No,Yes,Always,Yes,Maybe
+23,Male,2.0-2.5,Less than 1 hour,Late Night,2,Middle Income,No,,Yes,Yes,More than 6 hours,Entertainment,30-60 minutes,University Bus,More than 8 hours,Yes,No,Often,Yes,Maybe
+22,Male,3.5-4.0,More than 4 hours,Late Night,4,Low Income,No,,Yes,Yes,4-6 hours,Social Media,More than 2 hour,Public Transport,6-8 hours,No,Yes,Sometimes,Yes,Yes
+21,Male,2.5-3.0,Less than 1 hour,Evening,4,Low Income,No,,Yes,Yes,4-6 hours,Social Media,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,Yes,Maybe
+23,Male,3.0-3.5,Less than 1 hour,Late Night,2,Middle Income,Yes,11-20 hours,Yes,Yes,4-6 hours,Gaming,More than 1 hour,University Bus,6-8 hours,No,No,Always,Yes,Yes
+23,Male,3.0-3.5,3-4 hours,Late Night,4,Low Income,No,,Yes,Yes,1-3 hours,Study Purpose,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,Yes,Yes
+24,Male,3.5-4.0,More than 4 hours,Evening,3,Middle Income,No,,Yes,No,1-3 hours,Study Purpose,More than 1 hour,Private Vehicle,6-8 hours,Yes,Yes,Rarely,No,No
+24,Male,3.0-3.5,Less than 1 hour,Late Night,2,Middle Income,Yes,More than 20 hours,Yes,Yes,1-3 hours,Entertainment,More than 1 hour,University Bus,4-6 hours,Yes,No,Sometimes,No,Yes
+22,Male,2.5-3.0,3-4 hours,Evening,3,Middle Income,No,,Yes,Yes,1-3 hours,"Social Media, Entertainment, Gaming",More than 2 hour,Private Vehicle,4-6 hours,No,No,Often,No,Maybe
+23,Male,3.0-3.5,Less than 1 hour,Late Night,2,Low Income,No,,Yes,No,More than 6 hours,Social Media,More than 2 hour,University Bus,4-6 hours,No,No,Rarely,Yes,Yes
+24,Male,3.0-3.5,Less than 1 hour,Morning,3,Low Income,No,,Yes,No,1-3 hours,"Study Purpose, Social Media, Entertainment, Gaming",15-30 minutes,University Bus,4-6 hours,Yes,No,Sometimes,Yes,Maybe
+24,Male,3.5-4.0,More than 4 hours,Late Night,4,Middle Income,No,,Yes,No,1-3 hours,"Study Purpose, Entertainment",More than 2 hour,University Bus,More than 8 hours,Yes,No,Never,No,Maybe
+25,Male,3.0-3.5,1-2 hours,Evening,2,Middle Income,No,,Yes,Yes,1-3 hours,Social Media,More than 1 hour,University Bus,6-8 hours,Yes,No,Often,No,Maybe
+22,Male,3.5-4.0,3-4 hours,Morning,4,Low Income,No,,Yes,Yes,4-6 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 2 hour,University Bus,6-8 hours,Yes,No,Often,No,No
+23,Male,3.0-3.5,Less than 1 hour,Morning,3,Middle Income,No,,Yes,Yes,4-6 hours,Social Media,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Rarely,Yes,Maybe
+24,Male,3.5-4.0,3-4 hours,Morning,4,Middle Income,Yes,More than 20 hours,Yes,No,Less than 1 hour,"Study Purpose, Entertainment",More than 2 hour,University Bus,6-8 hours,No,Yes,Sometimes,No,No
+21,Male,3.0-3.5,1-2 hours,Evening,3,Middle Income,No,,Yes,Yes,4-6 hours,Study Purpose,More than 2 hour,University Bus,6-8 hours,No,No,Sometimes,Yes,Yes
+23,Male,3.0-3.5,Less than 1 hour,Evening,4,Middle Income,Yes,Less than 5 hours,Yes,Yes,1-3 hours,Gaming,More than 2 hour,University Bus,More than 8 hours,Yes,No,Sometimes,Yes,No
+21,Male,3.0-3.5,Less than 1 hour,Late Night,1,Low Income,No,,Yes,Yes,More than 6 hours,"Study Purpose, Social Media, Entertainment, Gaming",Less than 15 minutes,University Bus,Less than 4 hours,No,No,Always,Yes,Yes
+22,Male,3.5-4.0,3-4 hours,Evening,4,Middle Income,Yes,5-10 hours,Yes,Yes,4-6 hours,Entertainment,More than 1 hour,University Bus,More than 8 hours,Yes,No,Rarely,Yes,No
+20,Male,2.5-3.0,1-2 hours,Late Night,1,Middle Income,No,,Yes,No,1-3 hours,"Social Media, Entertainment, Gaming",More than 2 hour,University Bus,More than 8 hours,No,Yes,Often,No,Yes
+22,Male,3.0-3.5,1-2 hours,Evening,3,Low Income,Yes,11-20 hours,Yes,Yes,1-3 hours,"Study Purpose, Social Media, Entertainment",More than 2 hour,University Bus,6-8 hours,No,Yes,Often,No,Maybe
+24,Male,2.5-3.0,Less than 1 hour,Late Night,2,Middle Income,No,,Yes,Yes,More than 6 hours,"Study Purpose, Social Media, Entertainment, Gaming",30-60 minutes,University Bus,Less than 4 hours,No,Yes,Often,Yes,Yes
+23,Male,2.5-3.0,3-4 hours,Evening,4,Low Income,No,,Yes,Yes,1-3 hours,"Entertainment, Gaming",30-60 minutes,University Bus,6-8 hours,No,No,Often,Yes,No
+24,Male,3.0-3.5,1-2 hours,Morning,4,Middle Income,No,,Yes,Yes,1-3 hours,"Study Purpose, Gaming",More than 2 hour,University Bus,More than 8 hours,No,No,Always,Yes,No
+20,Male,2.5-3.0,Less than 1 hour,Late Night,4,Low Income,Yes,11-20 hours,Yes,Yes,1-3 hours,Entertainment,15-30 minutes,University Bus,Less than 4 hours,Yes,Yes,Always,No,No
+22,Male,3.0-3.5,1-2 hours,Evening,3,Low Income,No,,Yes,Yes,1-3 hours,Study Purpose,More than 2 hour,University Bus,6-8 hours,No,Yes,Sometimes,No,Yes
+22,Male,2.0-2.5,Less than 1 hour,Late Night,3,Middle Income,Yes,More than 20 hours,Yes,No,More than 6 hours,"Study Purpose, Social Media, Entertainment, Gaming",15-30 minutes,University Bus,Less than 4 hours,Yes,No,Always,No,Maybe
+22,Male,2.5-3.0,Less than 1 hour,Late Night,3,Low Income,No,,Yes,No,1-3 hours,Social Media,More than 1 hour,University Bus,4-6 hours,Yes,No,Rarely,No,Yes
+20,Male,3.5-4.0,More than 4 hours,Morning,4,Middle Income,No,,Yes,Yes,1-3 hours,Study Purpose,More than 2 hour,University Bus,4-6 hours,No,No,Often,Yes,Maybe
+21,Male,2.5-3.0,3-4 hours,Evening,4,Middle Income,No,,Yes,Yes,1-3 hours,Social Media,More than 2 hour,University Bus,4-6 hours,Yes,Yes,Rarely,Yes,No
+23,Male,3.5-4.0,Less than 1 hour,Late Night,1,Middle Income,No,,Yes,Yes,More than 6 hours,Study Purpose,More than 2 hour,University Bus,4-6 hours,Yes,Yes,Sometimes,Yes,Yes
+22,Male,3.0-3.5,3-4 hours,Late Night,3,Low Income,No,,Yes,Yes,4-6 hours,"Entertainment, Gaming",More than 2 hour,University Bus,6-8 hours,No,Yes,Sometimes,Yes,Maybe
+20,Male,2.5-3.0,Less than 1 hour,Late Night,1,Middle Income,No,,Yes,No,1-3 hours,Entertainment,More than 2 hour,University Bus,4-6 hours,Yes,Yes,Sometimes,No,Yes
+21,Female,2.5-3.0,1-2 hours,Evening,3,Low Income,No,,Yes,Yes,4-6 hours,"Study Purpose, Social Media, Entertainment, Gaming",15-30 minutes,University Bus,6-8 hours,Yes,No,Sometimes,Yes,Yes
+24,Female,3.5-4.0,Less than 1 hour,Late Night,4,Middle Income,No,,Yes,Yes,4-6 hours,"Entertainment, Gaming",More than 1 hour,University Bus,4-6 hours,No,No,Sometimes,Yes,Maybe
+23,Male,2.5-3.0,Less than 1 hour,Late Night,3,Middle Income,Yes,More than 20 hours,Yes,Yes,4-6 hours,Entertainment,Less than 15 minutes,Public Transport,4-6 hours,No,No,Always,No,Yes
+21,Male,3.0-3.5,Less than 1 hour,Morning,1,Middle Income,Yes,Less than 5 hours,Yes,Yes,More than 6 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 2 hour,University Bus,Less than 4 hours,No,No,Always,Yes,Yes
+24,Male,2.5-3.0,1-2 hours,Evening,4,Low Income,Yes,5-10 hours,Yes,No,1-3 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 1 hour,Public Transport,4-6 hours,Yes,Yes,Sometimes,Yes,Maybe
+22,Male,3.5-4.0,Less than 1 hour,Evening,4,Low Income,Yes,11-20 hours,Yes,No,More than 6 hours,Social Media,More than 1 hour,University Bus,6-8 hours,Yes,No,Sometimes,Yes,Yes
+23,Male,2.5-3.0,1-2 hours,Evening,4,Middle Income,No,,Yes,Yes,1-3 hours,Study Purpose,30-60 minutes,University Bus,4-6 hours,Yes,No,Sometimes,Yes,Maybe
+22,Female,3.0-3.5,3-4 hours,Late Night,1,Middle Income,No,,Yes,Yes,More than 6 hours,"Entertainment, Gaming",More than 2 hour,University Bus,4-6 hours,Yes,No,Always,Yes,Yes
+21,Male,3.0-3.5,1-2 hours,Late Night,3,Middle Income,No,,Yes,No,More than 6 hours,"Entertainment, Gaming",More than 1 hour,University Bus,Less than 4 hours,No,No,Sometimes,Yes,Yes
+20,Male,2.0-2.5,3-4 hours,Late Night,2,Middle Income,Yes,5-10 hours,Yes,No,More than 6 hours,Study Purpose,More than 2 hour,University Bus,4-6 hours,No,No,Rarely,No,Yes
+24,Male,3.0-3.5,1-2 hours,Evening,3,Middle Income,No,,Yes,Yes,4-6 hours,Social Media,15-30 minutes,University Bus,6-8 hours,No,No,Often,Yes,Maybe
+22,Male,3.0-3.5,3-4 hours,Evening,4,Low Income,No,,Yes,Yes,4-6 hours,"Social Media, Entertainment, Gaming",15-30 minutes,University Bus,4-6 hours,No,No,Sometimes,Yes,Yes
+21,Male,3.5-4.0,3-4 hours,Late Night,5,Middle Income,No,,Yes,No,1-3 hours,"Social Media, Entertainment",More than 1 hour,University Bus,6-8 hours,No,Yes,Often,No,Yes
+21,Male,2.5-3.0,Less than 1 hour,Late Night,3,Middle Income,Yes,More than 20 hours,Yes,Yes,More than 6 hours,Study Purpose,More than 1 hour,University Bus,More than 8 hours,No,No,Often,Yes,Maybe
+23,Male,3.5-4.0,Less than 1 hour,Evening,5,Middle Income,No,,Yes,No,1-3 hours,"Social Media, Entertainment",15-30 minutes,University Bus,4-6 hours,No,No,Sometimes,Yes,Yes
+21,Male,3.0-3.5,1-2 hours,Morning,3,Middle Income,No,,Yes,Yes,1-3 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 2 hour,University Bus,4-6 hours,Yes,No,Sometimes,Yes,No
+21,Female,3.5-4.0,3-4 hours,Late Night,5,Low Income,No,,Yes,Yes,4-6 hours,"Entertainment, Gaming",More than 2 hour,University Bus,6-8 hours,No,Yes,Sometimes,Yes,No
+20,Male,2.0-2.5,Less than 1 hour,Late Night,1,Low Income,No,,Yes,Yes,More than 6 hours,Entertainment,More than 1 hour,University Bus,4-6 hours,Yes,Yes,Often,No,Maybe
+24,Female,2.5-3.0,Less than 1 hour,Late Night,1,Low Income,Yes,11-20 hours,Yes,No,More than 6 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 2 hour,University Bus,Less than 4 hours,Yes,Yes,Often,No,No
+23,Male,3.5-4.0,More than 4 hours,Late Night,4,Middle Income,No,,Yes,Yes,1-3 hours,"Social Media, Entertainment, Gaming",15-30 minutes,Public Transport,6-8 hours,Yes,Yes,Sometimes,No,No
+20,Male,3.5-4.0,3-4 hours,Evening,5,Low Income,No,,Yes,No,1-3 hours,"Study Purpose, Social Media, Entertainment, Gaming",More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,No,Yes
+21,Female,3.0-3.5,1-2 hours,Morning,3,Middle Income,No,,Yes,No,1-3 hours,Study Purpose,More than 2 hour,Public Transport,6-8 hours,No,Yes,Rarely,Yes,No
+22,Male,3.0-3.5,Less than 1 hour,Evening,2,Middle Income,No,,Yes,Yes,More than 6 hours,Entertainment,15-30 minutes,University Bus,6-8 hours,No,Yes,Often,No,Yes
+22,Male,3.5-4.0,3-4 hours,Evening,3,Middle Income,No,,Yes,No,More than 6 hours,"Study Purpose, Social Media, Entertainment, Gaming",15-30 minutes,Public Transport,6-8 hours,No,No,Sometimes,Yes,No
+23,Male,3.0-3.5,1-2 hours,Evening,3,Low Income,Yes,5-10 hours,Yes,Yes,1-3 hours,Study Purpose,Less than 15 minutes,Public Transport,6-8 hours,Yes,Yes,Sometimes,Yes,No
+23,Female,3.5-4.0,3-4 hours,Late Night,4,Middle Income,No,,Yes,Yes,1-3 hours,Entertainment,More than 1 hour,Private Vehicle,4-6 hours,No,No,Often,Yes,Maybe
+22,Female,3.0-3.5,Less than 1 hour,Late Night,4,Low Income,No,,Yes,Yes,More than 6 hours,Entertainment,More than 2 hour,Private Vehicle,4-6 hours,No,Yes,Often,No,Maybe
+25,Male,3.5-4.0,3-4 hours,Evening,4,Middle Income,No,,Yes,Yes,1-3 hours,Social Media,More than 2 hour,University Bus,6-8 hours,No,No,Sometimes,Yes,No
+23,Male,3.5-4.0,Less than 1 hour,Morning,4,Low Income,Yes,5-10 hours,Yes,No,4-6 hours,Study Purpose,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,Yes,No
+20,Male,2.5-3.0,Less than 1 hour,Morning,2,Middle Income,No,,Yes,Yes,4-6 hours,Gaming,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Often,No,Maybe
+21,Male,3.5-4.0,More than 4 hours,Morning,4,Middle Income,Yes,5-10 hours,Yes,No,More than 6 hours,Study Purpose,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Rarely,No,Maybe
+22,Male,3.0-3.5,1-2 hours,Evening,4,Middle Income,No,,Yes,Yes,4-6 hours,Study Purpose,More than 2 hour,University Bus,6-8 hours,Yes,Yes,Sometimes,Yes,Maybe

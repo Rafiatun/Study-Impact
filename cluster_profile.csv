@@ -1,0 +1,4 @@
+cluster,acad_rating,study_hrs_n,sleep_hrs_n,screen_n,travel_n,stress_n,work_hrs_n,fin_cond_n,Study_Purpose,Social_Media,Entertainment,ECA_b,screen_sleep_b,CGPA,n
+1,2.24,1.46,2.18,3.21,4.06,3.85,5.56,1.75,0.41,0.52,0.58,0.56,0.56,3.02,71
+2,3.56,2.27,2.85,2.55,3.71,3.1,4.06,1.71,0.59,0.52,0.48,0.53,0.62,3.29,73
+3,3.8,2.84,2.64,2.3,3.84,3.11,2.88,1.5,0.41,0.55,0.5,0.59,0.64,3.45,56
